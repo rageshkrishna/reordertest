@@ -1,0 +1,17 @@
+language: python
+python:
+ - 2.7
+before_install:
+ - echo "This is before install"
+install:
+ - echo "This is install"
+before_script:
+ - echo "This is before script"
+script:
+ - echo "This is script"
+after_success:
+ - echo "This is after success"
+after_failure:
+ - echo "This is after failure"
+after_script:
+ - echo "This is after script"
